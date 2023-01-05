@@ -1,0 +1,29 @@
+
+.box1 {
+  float: left;
+  width: 33%;
+  height: 100%;
+  padding: 15px;
+  background-color: none;
+}
+.box2 {
+  float: left;
+  width: 33%;
+  height: 100%;
+  padding: 15px;
+  background-color: none;
+}
+.box3 {
+  float: left;
+  width: 33%;
+  height: 100%;
+  padding: 15px;
+  background-color: none;
+}
+
+@media (max-width: 1000px) {
+  .box1, .box2, .box3 {
+    width: 100%;
+    height: auto;
+  }
+}

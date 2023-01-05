@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #171717;
+  font-size: 16px;
+}
+
+h1{font-size: 55px;
+    font-family: 'Courier New', monospace;
+  }
+
+h2{font-size: 35px;
+   font-weight:normal;
+    font-family: "Courier New", monospace;
+    text-align: center;}
+
+h3{font-size: 25px;
+   font-weight:normal;
+    font-family: "Courier New", monospace;
+    text-align: center;}
+
+h4{font-size: 20px;
+   font-weight:normal;
+    font-family: "Courier New", monospace;
+    font-style: italic;}
+
+p.intro{border-bottom-style: solid;
+        padding-bottom:20px;}
+
+a{text-decoration: none;
+ color: white;}
+
+a.generic{text-decoration: none;
+ color: #00abc2;}
+
+a:hover.generic{
+ color: #00abc270;}
+
+img.profile{
+    width:100px;
+    height:auto;
+    float: left;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/* Create two columns/boxes that floats next to each other */
+.content1 {
+  background-image: url("../img/fuji.jpg");
+  background-position: center; 
+  background-size: cover;
+  border-radius: 5px;
+  float: left;
+  width: 30%;
+  height: auto;
+  padding: 20px;
+  margin-top: 1%;
+  margin-left: 1%;
+  background-color: none;
+  color: white;
+  text-align: center;
+}
+
+.content2 {
+  border-radius: 5px; 
+  float: left;
+  padding: 20px;
+  width: 69%;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: auto;
+  background-color: #cecece;
+}
+
+/* Style the footer */
+footer {
+  background-color: none;
+  padding: 10px;
+  margin-top: 1%;
+  text-align: center;
+  color: #585c61;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 1200px) {
+  .flex-container{
+    flex-direction: column;
+    }
+  .content1, .content2 {
+    width: 100%;
+    height: auto;
+
+  }
+}

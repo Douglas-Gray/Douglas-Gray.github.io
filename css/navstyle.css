@@ -1,0 +1,36 @@
+ul.nav {
+  list-style-type: none;
+  margin-top: 1%;
+  padding: 0;
+  margin-left: 2%;
+  overflow: hidden;
+  background-color: none;
+    
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #585c61;
+  font-size: 28px;
+  padding: 14px 16px;
+  margin-left: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Courier New", monospace;
+  border-radius: 5px;
+}
+
+li a:hover:not(.active) {
+  text-decoration: underline;
+  text-underline-offset: 0.4em; 
+}
+
+.active {
+  text-decoration: underline;
+  text-underline-offset: 0.4em; 
+  color: #585c6170;
+}
