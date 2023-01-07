@@ -28,12 +28,13 @@ h4{font-size: 20px;
     font-style: italic;}
 
 dt {
-    padding: 5px;
+    padding: 10px;
 }
 
 p.intro{border-bottom-style: solid;
         font-size 16px;
-        padding-bottom:20px;}
+        padding-bottom:20px;
+        text-align: center;}
 
 a{text-decoration: none;
  color: white;}
