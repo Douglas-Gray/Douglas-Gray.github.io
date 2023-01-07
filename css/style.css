@@ -31,6 +31,16 @@ dt {
     padding: 10px;
 }
 
+li.center{
+    float:none; 
+    padding: 10px;
+}
+
+ul.education{
+    text-decoration: none;
+    list-style-type: circle;
+}
+
 p.intro{border-bottom-style: solid;
         font-size 16px;
         padding-bottom:20px;
