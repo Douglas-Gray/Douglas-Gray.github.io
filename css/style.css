@@ -32,6 +32,7 @@ dt {
 }
 
 p.intro{border-bottom-style: solid;
+        font-size 16px;
         padding-bottom:20px;}
 
 a{text-decoration: none;
@@ -53,7 +54,9 @@ img.profile{
   display: flex;
   flex-wrap: nowrap;
   height: auto;
-  margin: 0;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
   padding: 0;
 }
 
@@ -67,8 +70,6 @@ img.profile{
   width: 30%;
   height: auto;
   padding: 20px;
-  margin-top: 1%;
-  margin-left: 1%;
   background-color: none;
   color: white;
   text-align: center;
@@ -79,9 +80,7 @@ img.profile{
   float: left;
   padding: 20px;
   width: 69%;
-  margin-top: 1%;
   margin-left: 1%;
-  margin-right: 1%;
   height: auto;
   background-color: #cecece;
 }
@@ -100,9 +99,15 @@ footer {
   .flex-container{
     flex-direction: column;
     }
-  .content1, .content2 {
+  .content1 {
     width: 100%;
     height: auto;
-
   }
+ .content2 {
+    width: 100%;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 0%;
+ }
+
 }
