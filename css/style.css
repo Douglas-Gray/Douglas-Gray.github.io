@@ -42,7 +42,7 @@ a:hover.generic{
 img.profile{
     width:100px;
     height:auto;
-    float: left;
+    float: center;
 }
 
 .flex-container {
