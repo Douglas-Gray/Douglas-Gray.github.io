@@ -21,7 +21,7 @@
   background-color: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .box1, .box2, .box3 {
     width: 100%;
     height: auto;
